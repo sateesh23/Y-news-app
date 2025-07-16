@@ -20,6 +20,14 @@ A modern, offline-capable news reader built with React Native and Expo, featurin
 - **NetInfo**: Network connectivity monitoring
 - **Expo APIs**: Haptics, notifications, file system, sharing
 
+### 🤝 Collaborators
+
+| Name                 | GitHub            | Email                   |
+| -------------------- | ----------------- | ----------------------- |
+| M Ajay kumar reddy   | [@ajaykumarreddym](https://github.com/ajaykumarreddym)  | ajayreddymr07@gmail.com |
+| G Sateesh            | [@sateesh23](https://github.com/sateesh23)        | sateeshgavara10@gmail.com|
+
+
 ## 📱 Screenshots
 
 ![Home Feed](<Screenshot 2025-07-16 at 9.50.42 AM.png>) ![Home Feed](<Screenshot 2025-07-16 at 9.51.11 AM.png>) ![Saved](<Screenshot 2025-07-16 at 9.51.28 AM.png>) ![Settings](<Screenshot 2025-07-16 at 9.51.40 AM.png>)
@@ -106,43 +114,6 @@ Y/
 - **Border Radius**: 16px consistently
 - **Card Elevation**: 4px shadow/elevation
 
-## 🧪 Testing
-
-### Run Tests
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-
-# Run with coverage
-npm test -- --coverage
-```
-
-### Test Structure
-- Unit tests for hooks and utilities
-- Component tests with React Native Testing Library
-- Integration tests for key user flows
-
-## 🔧 Development
-
-### Code Quality
-```bash
-# Lint code
-npm run lint
-
-# Fix linting issues
-npm run lint:fix
-
-# Format code
-npm run format
-```
-
-### Git Hooks
-- Pre-commit: Runs linting and formatting
-- Pre-push: Runs tests
-
 ## 📦 Building & Deployment
 
 ### Development Build
@@ -175,8 +146,8 @@ eas submit --platform android
 ## 📊 Bundle Size Analysis
 
 Target bundle sizes:
-- **Android AAB**: ≤ 25 MB
-- **iOS IPA**: ≤ 30 MB
+- **Android AAB**: ≤ 100 MB
+- **iOS IPA**: ≤ 70 MB
 
 ## ♿ Accessibility
 
@@ -195,7 +166,6 @@ Target bundle sizes:
 
 - Hero images require internet connection for initial download
 - Search is client-side only (no server-side search)
-- Limited to mock data (no real news API integration)
 
 ## 🤝 Contributing
 
@@ -204,10 +174,6 @@ Target bundle sizes:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -220,6 +186,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support, please open an issue on GitHub or contact the development team.
 
----
-
-**Built with ❤️ using React Native & Expo**
